@@ -8,7 +8,7 @@ This project creates a centralized monitoring dashboard fhat provides real time 
 - Containers: Docker, Kubernetes
 - Monitoring: Prometheus, Grafana
 - Logging: Elastic Search Stack
-- Automation: Ansible(LOcal setup), Terraform (for cloud setup)
+- Automation: Ansible(Local setup), Terraform (for cloud setup)
 
 ## Roadmap
 1. Set up CI/CD with Jenkins [In Progress]
