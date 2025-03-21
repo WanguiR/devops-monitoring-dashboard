@@ -7,7 +7,7 @@ data = {
     "last_build_status": "Successful",
     "build_time":"45 sec",
     "deploy_status" :"deployed",
-    "container_count": 4
+    "container_count": "4",
 }
 
 @app.route ('/')
