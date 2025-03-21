@@ -4,7 +4,7 @@ pipeline {
     stages
         stage ('Clone Repo'){
             steps {
-                git Clone 'https://github.com/WanguiR/devops-monitoring-dashboard.git'
+                git 'https://github.com/WanguiR/devops-monitoring-dashboard.git'
             }
         }
         stage ('install dependencies'){
