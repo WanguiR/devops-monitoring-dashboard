@@ -1,7 +1,7 @@
 pipeline {
     agent any 
 
-    stages
+    stages{
         stage ('Clone Repo'){
             steps {
                 git 'https://github.com/WanguiR/devops-monitoring-dashboard.git'
@@ -12,4 +12,5 @@ pipeline {
                 sh 'pip install -r requirements.txt'
             }
         }
+     } 
 }
