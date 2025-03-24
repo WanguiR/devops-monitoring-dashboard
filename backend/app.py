@@ -1,34 +1,28 @@
-from flask import Flask, jsonify, render_template
 import requests
+from flask import Flask, jsonify, render_template
 
-app = Flask(__name__, template_folder="templates")  
+
+app = Flask(__name__)
+
 JENKINS_URL = "http://localhost:8080"
 JOB_NAME = "devops-pipeline"
-USERNAME = "admin"
-API_TOKEN = "your_api_token"
+USERNAME = "ry"
+API_TOKEN = "11359df710fab57fd9201b0eb3556fa627"
 
 def get_jenkins_data():
-    url = f"http://localhost:8080/job/devops-pipeline/lastBuild/api/json"
+    url = f"{JENKINS_URL}/job/{JOB_NAME}/lastBuild/api/json"
     response = requests.get(url, auth=(USERNAME, API_TOKEN))
-    
-    if response.status_code == 200:
-        data = response.json()
-        return {
-            "build_number": data.get("number"),
-            "status": data.get("result"),
-            "duration": data.get("duration") / 1000,  # Convert ms to seconds
-            "timestamp": data.get("timestamp")
-        }
-    else:
-        return {"error": "Failed to fetch data from Jenkins"}
 
-# Serve the dashboard
-@app.route('/')
-def dashboard():
+    if response.status_code == 200:
+        return response.json()
+    else:
+        return {"error": "Unauthorized", "status_code": response.status_code}
+    
+@app.route ('/')
+def home():
     return render_template("dashboard.html")
 
-# Serve the API endpoint 
-@app.route('/jenkins-stats', methods=['GET'])
+@app.route('/jenkins-stats')
 def jenkins_stats():
     return jsonify(get_jenkins_data())
 

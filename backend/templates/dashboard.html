@@ -3,14 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jenkins Build Stats</title>
+    <title>Jenkins Build Dashboard</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 </head>
-<body>
-    <h2>Jenkins Build Stats</h2>
-    <p><b>Build Number:</b> <span id="build-number">Loading...</span></p>
-    <p><b>Status:</b> <span id="build-status">Loading...</span></p>
-    <p><b>Duration:</b> <span id="build-duration">Loading...</span> sec</p>
+<body class="bg-light">
+    <div class="container mt-5">
+        <h2 class="text-center mb-4">Jenkins Build Dashboard</h2>
+        
+        <table class="table table-bordered table-striped">
+            <thead class="table-dark">
+                <tr>
+                    <th>Build Number</th>
+                    <th>Status</th>
+                    <th>Duration (sec)</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td id="build-number">Loading...</td>
+                    <td id="build-status">Loading...</td>
+                    <td id="build-duration">Loading...</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
 
     <script>
         function fetchJenkinsStats() {
@@ -27,9 +44,9 @@
             });
         }
 
-        // Refresh stats
+        // Refresh stats every 5 seconds
         setInterval(fetchJenkinsStats, 5000);
-        fetchJenkinsStats();  // Initial fetch
+        fetchJenkinsStats(); // Initial fetch
     </script>
 </body>
 </html>
