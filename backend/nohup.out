@@ -75,3 +75,254 @@ Port 5000 is in use by another program. Either identify and stop that program, o
  * Debugger PIN: 125-728-690
 127.0.0.1 - - [24/Mar/2025 15:29:42] "GET /jenkins-stats HTTP/1.1" 200 -
 127.0.0.1 - - [24/Mar/2025 15:29:47] "GET /jenkins-stats HTTP/1.1" 200 -
+127.0.0.1 - - [24/Mar/2025 15:29:52] "GET /jenkins-stats HTTP/1.1" 200 -
+127.0.0.1 - - [24/Mar/2025 15:29:57] "GET /jenkins-stats HTTP/1.1" 200 -
+127.0.0.1 - - [24/Mar/2025 15:30:32] "GET /jenkins-stats HTTP/1.1" 200 -
+127.0.0.1 - - [24/Mar/2025 15:30:32] "GET /jenkins-stats HTTP/1.1" 200 -
+127.0.0.1 - - [24/Mar/2025 15:30:36] "GET /jenkins-stats HTTP/1.1" 200 -
+127.0.0.1 - - [24/Mar/2025 15:30:42] "GET /jenkins-stats HTTP/1.1" 200 -
+127.0.0.1 - - [24/Mar/2025 15:30:47] "GET /jenkins-stats HTTP/1.1" 200 -
+127.0.0.1 - - [24/Mar/2025 15:30:52] "GET /jenkins-stats HTTP/1.1" 200 -
+127.0.0.1 - - [24/Mar/2025 15:30:57] "GET /jenkins-stats HTTP/1.1" 200 -
+127.0.0.1 - - [24/Mar/2025 15:31:02] "GET /jenkins-stats HTTP/1.1" 200 -
+127.0.0.1 - - [24/Mar/2025 15:31:07] "GET /jenkins-stats HTTP/1.1" 200 -
+127.0.0.1 - - [24/Mar/2025 15:31:12] "GET /jenkins-stats HTTP/1.1" 200 -
+127.0.0.1 - - [24/Mar/2025 15:31:17] "GET /jenkins-stats HTTP/1.1" 200 -
+127.0.0.1 - - [24/Mar/2025 15:31:22] "GET /jenkins-stats HTTP/1.1" 200 -
+127.0.0.1 - - [24/Mar/2025 15:31:27] "GET /jenkins-stats HTTP/1.1" 200 -
+127.0.0.1 - - [24/Mar/2025 15:31:32] "GET /jenkins-stats HTTP/1.1" 200 -
+127.0.0.1 - - [24/Mar/2025 15:31:32] "GET /jenkins-stats HTTP/1.1" 200 -
+127.0.0.1 - - [24/Mar/2025 15:32:32] "GET /jenkins-stats HTTP/1.1" 200 -
+127.0.0.1 - - [24/Mar/2025 15:32:32] "GET /jenkins-stats HTTP/1.1" 200 -
+127.0.0.1 - - [24/Mar/2025 15:33:32] "GET /jenkins-stats HTTP/1.1" 200 -
+127.0.0.1 - - [24/Mar/2025 15:33:32] "GET /jenkins-stats HTTP/1.1" 200 -
+127.0.0.1 - - [24/Mar/2025 15:34:32] "GET /jenkins-stats HTTP/1.1" 200 -
+127.0.0.1 - - [24/Mar/2025 15:34:32] "GET /jenkins-stats HTTP/1.1" 200 -
+127.0.0.1 - - [24/Mar/2025 15:35:32] "GET /jenkins-stats HTTP/1.1" 200 -
+127.0.0.1 - - [24/Mar/2025 15:35:32] "GET /jenkins-stats HTTP/1.1" 200 -
+ * Detected change in '/home/ry/devops-monitoring-dashboard/backend/app.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 125-728-690
+ * Serving Flask app 'app'
+ * Debug mode: on
+Address already in use
+Port 5000 is in use by another program. Either identify and stop that program, or start the server with a different port.
+127.0.0.1 - - [24/Mar/2025 15:36:32] "GET /jenkins-stats HTTP/1.1" 200 -
+127.0.0.1 - - [24/Mar/2025 15:36:32] "GET /jenkins-stats HTTP/1.1" 200 -
+127.0.0.1 - - [24/Mar/2025 15:36:36] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [24/Mar/2025 15:36:36] "GET /jenkins-stats HTTP/1.1" 200 -
+127.0.0.1 - - [24/Mar/2025 15:36:36] "GET /jenkins-stats HTTP/1.1" 200 -
+127.0.0.1 - - [24/Mar/2025 15:36:37] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [24/Mar/2025 15:36:37] "GET /jenkins-stats HTTP/1.1" 200 -
+127.0.0.1 - - [24/Mar/2025 15:36:37] "GET /jenkins-stats HTTP/1.1" 200 -
+127.0.0.1 - - [24/Mar/2025 15:36:38] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [24/Mar/2025 15:36:38] "GET /jenkins-stats HTTP/1.1" 200 -
+127.0.0.1 - - [24/Mar/2025 15:36:38] "GET /jenkins-stats HTTP/1.1" 200 -
+127.0.0.1 - - [24/Mar/2025 15:36:39] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [24/Mar/2025 15:36:40] "GET /jenkins-stats HTTP/1.1" 200 -
+127.0.0.1 - - [24/Mar/2025 15:36:40] "GET /jenkins-stats HTTP/1.1" 200 -
+127.0.0.1 - - [24/Mar/2025 15:36:40] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [24/Mar/2025 15:36:41] "GET /jenkins-stats HTTP/1.1" 200 -
+127.0.0.1 - - [24/Mar/2025 15:36:41] "GET /jenkins-stats HTTP/1.1" 200 -
+127.0.0.1 - - [24/Mar/2025 15:36:46] "GET /jenkins-stats HTTP/1.1" 200 -
+127.0.0.1 - - [24/Mar/2025 15:36:46] "GET /jenkins-stats HTTP/1.1" 200 -
+127.0.0.1 - - [24/Mar/2025 15:36:51] "GET /jenkins-stats HTTP/1.1" 200 -
+127.0.0.1 - - [24/Mar/2025 15:36:51] "GET /jenkins-stats HTTP/1.1" 200 -
+127.0.0.1 - - [24/Mar/2025 15:36:56] "GET /jenkins-stats HTTP/1.1" 200 -
+127.0.0.1 - - [24/Mar/2025 15:36:56] "GET /jenkins-stats HTTP/1.1" 200 -
+127.0.0.1 - - [24/Mar/2025 15:37:01] "GET /jenkins-stats HTTP/1.1" 200 -
+127.0.0.1 - - [24/Mar/2025 15:37:01] "GET /jenkins-stats HTTP/1.1" 200 -
+127.0.0.1 - - [24/Mar/2025 15:37:06] "GET /jenkins-stats HTTP/1.1" 200 -
+127.0.0.1 - - [24/Mar/2025 15:37:06] "GET /jenkins-stats HTTP/1.1" 200 -
+127.0.0.1 - - [24/Mar/2025 15:37:08] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [24/Mar/2025 15:37:08] "GET /jenkins-stats HTTP/1.1" 200 -
+127.0.0.1 - - [24/Mar/2025 15:37:08] "GET /jenkins-stats HTTP/1.1" 200 -
+127.0.0.1 - - [24/Mar/2025 15:37:09] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [24/Mar/2025 15:37:09] "GET /jenkins-stats HTTP/1.1" 200 -
+127.0.0.1 - - [24/Mar/2025 15:37:09] "GET /jenkins-stats HTTP/1.1" 200 -
+127.0.0.1 - - [24/Mar/2025 15:37:10] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [24/Mar/2025 15:37:10] "GET /jenkins-stats HTTP/1.1" 200 -
+127.0.0.1 - - [24/Mar/2025 15:37:10] "GET /jenkins-stats HTTP/1.1" 200 -
+127.0.0.1 - - [24/Mar/2025 15:37:11] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [24/Mar/2025 15:37:11] "GET /jenkins-stats HTTP/1.1" 200 -
+127.0.0.1 - - [24/Mar/2025 15:37:11] "GET /jenkins-stats HTTP/1.1" 200 -
+127.0.0.1 - - [24/Mar/2025 15:37:11] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [24/Mar/2025 15:37:12] "GET /jenkins-stats HTTP/1.1" 200 -
+127.0.0.1 - - [24/Mar/2025 15:37:12] "GET /jenkins-stats HTTP/1.1" 200 -
+127.0.0.1 - - [24/Mar/2025 15:37:13] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [24/Mar/2025 15:37:13] "GET /jenkins-stats HTTP/1.1" 200 -
+127.0.0.1 - - [24/Mar/2025 15:37:13] "GET /jenkins-stats HTTP/1.1" 200 -
+127.0.0.1 - - [24/Mar/2025 15:37:18] "GET /jenkins-stats HTTP/1.1" 200 -
+127.0.0.1 - - [24/Mar/2025 15:37:18] "GET /jenkins-stats HTTP/1.1" 200 -
+127.0.0.1 - - [24/Mar/2025 15:37:20] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [24/Mar/2025 15:37:20] "GET /jenkins-stats HTTP/1.1" 200 -
+127.0.0.1 - - [24/Mar/2025 15:37:20] "GET /jenkins-stats HTTP/1.1" 200 -
+127.0.0.1 - - [24/Mar/2025 15:37:26] "GET /jenkins-stats HTTP/1.1" 200 -
+127.0.0.1 - - [24/Mar/2025 15:37:26] "GET /jenkins-stats HTTP/1.1" 200 -
+127.0.0.1 - - [24/Mar/2025 15:37:31] "GET /jenkins-stats HTTP/1.1" 200 -
+127.0.0.1 - - [24/Mar/2025 15:37:31] "GET /jenkins-stats HTTP/1.1" 200 -
+127.0.0.1 - - [24/Mar/2025 15:37:32] "GET /jenkins-stats HTTP/1.1" 200 -
+127.0.0.1 - - [24/Mar/2025 15:37:35] "GET /jenkins-stats HTTP/1.1" 200 -
+127.0.0.1 - - [24/Mar/2025 15:37:35] "GET /jenkins-stats HTTP/1.1" 200 -
+127.0.0.1 - - [24/Mar/2025 15:37:40] "GET /jenkins-stats HTTP/1.1" 200 -
+127.0.0.1 - - [24/Mar/2025 15:37:40] "GET /jenkins-stats HTTP/1.1" 200 -
+127.0.0.1 - - [24/Mar/2025 15:37:45] "GET /jenkins-stats HTTP/1.1" 200 -
+127.0.0.1 - - [24/Mar/2025 15:37:45] "GET /jenkins-stats HTTP/1.1" 200 -
+127.0.0.1 - - [24/Mar/2025 15:37:51] "GET /jenkins-stats HTTP/1.1" 200 -
+127.0.0.1 - - [24/Mar/2025 15:37:51] "GET /jenkins-stats HTTP/1.1" 200 -
+127.0.0.1 - - [24/Mar/2025 15:37:56] "GET /jenkins-stats HTTP/1.1" 200 -
+127.0.0.1 - - [24/Mar/2025 15:37:56] "GET /jenkins-stats HTTP/1.1" 200 -
+127.0.0.1 - - [24/Mar/2025 15:38:01] "GET /jenkins-stats HTTP/1.1" 200 -
+127.0.0.1 - - [24/Mar/2025 15:38:01] "GET /jenkins-stats HTTP/1.1" 200 -
+127.0.0.1 - - [24/Mar/2025 15:38:06] "GET /jenkins-stats HTTP/1.1" 200 -
+127.0.0.1 - - [24/Mar/2025 15:38:06] "GET /jenkins-stats HTTP/1.1" 200 -
+127.0.0.1 - - [24/Mar/2025 15:38:11] "GET /jenkins-stats HTTP/1.1" 200 -
+127.0.0.1 - - [24/Mar/2025 15:38:11] "GET /jenkins-stats HTTP/1.1" 200 -
+127.0.0.1 - - [24/Mar/2025 15:38:16] "GET /jenkins-stats HTTP/1.1" 200 -
+127.0.0.1 - - [24/Mar/2025 15:38:16] "GET /jenkins-stats HTTP/1.1" 200 -
+127.0.0.1 - - [24/Mar/2025 15:38:21] "GET /jenkins-stats HTTP/1.1" 200 -
+127.0.0.1 - - [24/Mar/2025 15:38:21] "GET /jenkins-stats HTTP/1.1" 200 -
+127.0.0.1 - - [24/Mar/2025 15:38:26] "GET /jenkins-stats HTTP/1.1" 200 -
+127.0.0.1 - - [24/Mar/2025 15:38:26] "GET /jenkins-stats HTTP/1.1" 200 -
+127.0.0.1 - - [24/Mar/2025 15:38:31] "GET /jenkins-stats HTTP/1.1" 200 -
+127.0.0.1 - - [24/Mar/2025 15:38:31] "GET /jenkins-stats HTTP/1.1" 200 -
+127.0.0.1 - - [24/Mar/2025 15:38:32] "GET /jenkins-stats HTTP/1.1" 200 -
+127.0.0.1 - - [24/Mar/2025 15:38:36] "GET /jenkins-stats HTTP/1.1" 200 -
+127.0.0.1 - - [24/Mar/2025 15:38:36] "GET /jenkins-stats HTTP/1.1" 200 -
+127.0.0.1 - - [24/Mar/2025 15:38:40] "GET /jenkins-stats HTTP/1.1" 200 -
+127.0.0.1 - - [24/Mar/2025 15:38:40] "GET /jenkins-stats HTTP/1.1" 200 -
+127.0.0.1 - - [24/Mar/2025 15:38:45] "GET /jenkins-stats HTTP/1.1" 200 -
+127.0.0.1 - - [24/Mar/2025 15:38:45] "GET /jenkins-stats HTTP/1.1" 200 -
+127.0.0.1 - - [24/Mar/2025 15:38:51] "GET /jenkins-stats HTTP/1.1" 200 -
+127.0.0.1 - - [24/Mar/2025 15:38:51] "GET /jenkins-stats HTTP/1.1" 200 -
+127.0.0.1 - - [24/Mar/2025 15:38:56] "GET /jenkins-stats HTTP/1.1" 200 -
+127.0.0.1 - - [24/Mar/2025 15:38:56] "GET /jenkins-stats HTTP/1.1" 200 -
+127.0.0.1 - - [24/Mar/2025 15:39:01] "GET /jenkins-stats HTTP/1.1" 200 -
+127.0.0.1 - - [24/Mar/2025 15:39:01] "GET /jenkins-stats HTTP/1.1" 200 -
+127.0.0.1 - - [24/Mar/2025 15:39:06] "GET /jenkins-stats HTTP/1.1" 200 -
+127.0.0.1 - - [24/Mar/2025 15:39:06] "GET /jenkins-stats HTTP/1.1" 200 -
+127.0.0.1 - - [24/Mar/2025 15:39:11] "GET /jenkins-stats HTTP/1.1" 200 -
+127.0.0.1 - - [24/Mar/2025 15:39:11] "GET /jenkins-stats HTTP/1.1" 200 -
+127.0.0.1 - - [24/Mar/2025 15:39:16] "GET /jenkins-stats HTTP/1.1" 200 -
+127.0.0.1 - - [24/Mar/2025 15:39:16] "GET /jenkins-stats HTTP/1.1" 200 -
+127.0.0.1 - - [24/Mar/2025 15:39:21] "GET /jenkins-stats HTTP/1.1" 200 -
+127.0.0.1 - - [24/Mar/2025 15:39:21] "GET /jenkins-stats HTTP/1.1" 200 -
+127.0.0.1 - - [24/Mar/2025 15:39:26] "GET /jenkins-stats HTTP/1.1" 200 -
+127.0.0.1 - - [24/Mar/2025 15:39:26] "GET /jenkins-stats HTTP/1.1" 200 -
+127.0.0.1 - - [24/Mar/2025 15:39:31] "GET /jenkins-stats HTTP/1.1" 200 -
+127.0.0.1 - - [24/Mar/2025 15:39:31] "GET /jenkins-stats HTTP/1.1" 200 -
+127.0.0.1 - - [24/Mar/2025 15:39:32] "GET /jenkins-stats HTTP/1.1" 200 -
+127.0.0.1 - - [24/Mar/2025 15:39:36] "GET /jenkins-stats HTTP/1.1" 200 -
+127.0.0.1 - - [24/Mar/2025 15:39:36] "GET /jenkins-stats HTTP/1.1" 200 -
+127.0.0.1 - - [24/Mar/2025 15:39:41] "GET /jenkins-stats HTTP/1.1" 200 -
+127.0.0.1 - - [24/Mar/2025 15:39:41] "GET /jenkins-stats HTTP/1.1" 200 -
+127.0.0.1 - - [24/Mar/2025 15:39:46] "GET /jenkins-stats HTTP/1.1" 200 -
+127.0.0.1 - - [24/Mar/2025 15:39:46] "GET /jenkins-stats HTTP/1.1" 200 -
+127.0.0.1 - - [24/Mar/2025 15:40:32] "GET /jenkins-stats HTTP/1.1" 200 -
+127.0.0.1 - - [24/Mar/2025 15:40:32] "GET /jenkins-stats HTTP/1.1" 200 -
+127.0.0.1 - - [24/Mar/2025 15:40:32] "GET /jenkins-stats HTTP/1.1" 200 -
+127.0.0.1 - - [24/Mar/2025 15:40:58] "GET /jenkins-stats HTTP/1.1" 200 -
+127.0.0.1 - - [24/Mar/2025 15:41:32] "GET /jenkins-stats HTTP/1.1" 200 -
+127.0.0.1 - - [24/Mar/2025 15:41:32] "GET /jenkins-stats HTTP/1.1" 200 -
+127.0.0.1 - - [24/Mar/2025 15:41:32] "GET /jenkins-stats HTTP/1.1" 200 -
+127.0.0.1 - - [24/Mar/2025 15:42:32] "GET /jenkins-stats HTTP/1.1" 200 -
+127.0.0.1 - - [24/Mar/2025 15:42:32] "GET /jenkins-stats HTTP/1.1" 200 -
+127.0.0.1 - - [24/Mar/2025 15:42:32] "GET /jenkins-stats HTTP/1.1" 200 -
+127.0.0.1 - - [24/Mar/2025 15:43:32] "GET /jenkins-stats HTTP/1.1" 200 -
+127.0.0.1 - - [24/Mar/2025 15:43:32] "GET /jenkins-stats HTTP/1.1" 200 -
+127.0.0.1 - - [24/Mar/2025 15:43:32] "GET /jenkins-stats HTTP/1.1" 200 -
+127.0.0.1 - - [24/Mar/2025 15:44:32] "GET /jenkins-stats HTTP/1.1" 200 -
+127.0.0.1 - - [24/Mar/2025 15:44:32] "GET /jenkins-stats HTTP/1.1" 200 -
+127.0.0.1 - - [24/Mar/2025 15:44:32] "GET /jenkins-stats HTTP/1.1" 200 -
+127.0.0.1 - - [24/Mar/2025 15:45:32] "GET /jenkins-stats HTTP/1.1" 200 -
+127.0.0.1 - - [24/Mar/2025 15:45:32] "GET /jenkins-stats HTTP/1.1" 200 -
+127.0.0.1 - - [24/Mar/2025 15:45:32] "GET /jenkins-stats HTTP/1.1" 200 -
+127.0.0.1 - - [24/Mar/2025 15:46:32] "GET /jenkins-stats HTTP/1.1" 200 -
+127.0.0.1 - - [24/Mar/2025 15:46:32] "GET /jenkins-stats HTTP/1.1" 200 -
+127.0.0.1 - - [24/Mar/2025 15:46:32] "GET /jenkins-stats HTTP/1.1" 200 -
+127.0.0.1 - - [24/Mar/2025 15:47:32] "GET /jenkins-stats HTTP/1.1" 200 -
+127.0.0.1 - - [24/Mar/2025 15:47:32] "GET /jenkins-stats HTTP/1.1" 200 -
+127.0.0.1 - - [24/Mar/2025 15:47:32] "GET /jenkins-stats HTTP/1.1" 200 -
+127.0.0.1 - - [24/Mar/2025 15:48:32] "GET /jenkins-stats HTTP/1.1" 200 -
+127.0.0.1 - - [24/Mar/2025 15:48:32] "GET /jenkins-stats HTTP/1.1" 200 -
+127.0.0.1 - - [24/Mar/2025 15:48:32] "GET /jenkins-stats HTTP/1.1" 200 -
+ * Detected change in '/home/ry/devops-monitoring-dashboard/backend/app.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 125-728-690
+ * Serving Flask app 'app'
+ * Debug mode: on
+Address already in use
+Port 5000 is in use by another program. Either identify and stop that program, or start the server with a different port.
+127.0.0.1 - - [24/Mar/2025 15:49:04] "GET / HTTP/1.1" 404 -
+127.0.0.1 - - [24/Mar/2025 15:49:05] "GET / HTTP/1.1" 404 -
+127.0.0.1 - - [24/Mar/2025 15:49:08] "GET /jenkins-stats HTTP/1.1" 200 -
+127.0.0.1 - - [24/Mar/2025 15:49:08] "GET /jenkins-stats HTTP/1.1" 200 -
+127.0.0.1 - - [24/Mar/2025 15:49:09] "GET / HTTP/1.1" 404 -
+127.0.0.1 - - [24/Mar/2025 15:49:10] "GET / HTTP/1.1" 404 -
+127.0.0.1 - - [24/Mar/2025 15:49:32] "GET /jenkins-stats HTTP/1.1" 200 -
+127.0.0.1 - - [24/Mar/2025 15:50:32] "GET /jenkins-stats HTTP/1.1" 200 -
+ * Detected change in '/home/ry/devops-monitoring-dashboard/backend/app.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 125-728-690
+127.0.0.1 - - [24/Mar/2025 15:51:32] "GET /jenkins-stats HTTP/1.1" 200 -
+ * Detected change in '/home/ry/devops-monitoring-dashboard/backend/app.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 125-728-690
+ * Serving Flask app 'app'
+ * Debug mode: on
+Address already in use
+Port 5000 is in use by another program. Either identify and stop that program, or start the server with a different port.
+127.0.0.1 - - [24/Mar/2025 15:52:06] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [24/Mar/2025 15:52:07] "GET /jenkins-stats HTTP/1.1" 200 -
+127.0.0.1 - - [24/Mar/2025 15:52:07] "GET /jenkins-stats HTTP/1.1" 200 -
+127.0.0.1 - - [24/Mar/2025 15:52:12] "GET /jenkins-stats HTTP/1.1" 200 -
+127.0.0.1 - - [24/Mar/2025 15:52:12] "GET /jenkins-stats HTTP/1.1" 200 -
+127.0.0.1 - - [24/Mar/2025 15:52:17] "GET /jenkins-stats HTTP/1.1" 200 -
+127.0.0.1 - - [24/Mar/2025 15:52:17] "GET /jenkins-stats HTTP/1.1" 200 -
+127.0.0.1 - - [24/Mar/2025 15:52:22] "GET /jenkins-stats HTTP/1.1" 200 -
+127.0.0.1 - - [24/Mar/2025 15:52:22] "GET /jenkins-stats HTTP/1.1" 200 -
+127.0.0.1 - - [24/Mar/2025 15:52:27] "GET /jenkins-stats HTTP/1.1" 200 -
+127.0.0.1 - - [24/Mar/2025 15:52:27] "GET /jenkins-stats HTTP/1.1" 200 -
+127.0.0.1 - - [24/Mar/2025 15:52:32] "GET /jenkins-stats HTTP/1.1" 200 -
+127.0.0.1 - - [24/Mar/2025 15:52:32] "GET /jenkins-stats HTTP/1.1" 200 -
+127.0.0.1 - - [24/Mar/2025 15:52:32] "GET /jenkins-stats HTTP/1.1" 200 -
+127.0.0.1 - - [24/Mar/2025 15:52:37] "GET /jenkins-stats HTTP/1.1" 200 -
+127.0.0.1 - - [24/Mar/2025 15:52:37] "GET /jenkins-stats HTTP/1.1" 200 -
+127.0.0.1 - - [24/Mar/2025 15:52:37] "GET /jenkins-stats HTTP/1.1" 200 -
+127.0.0.1 - - [24/Mar/2025 15:52:42] "GET /jenkins-stats HTTP/1.1" 200 -
+127.0.0.1 - - [24/Mar/2025 15:52:42] "GET /jenkins-stats HTTP/1.1" 200 -
+127.0.0.1 - - [24/Mar/2025 15:52:42] "GET /jenkins-stats HTTP/1.1" 200 -
+127.0.0.1 - - [24/Mar/2025 15:52:47] "GET /jenkins-stats HTTP/1.1" 200 -
+127.0.0.1 - - [24/Mar/2025 15:52:47] "GET /jenkins-stats HTTP/1.1" 200 -
+127.0.0.1 - - [24/Mar/2025 15:52:47] "GET /jenkins-stats HTTP/1.1" 200 -
+127.0.0.1 - - [24/Mar/2025 15:52:52] "GET /jenkins-stats HTTP/1.1" 200 -
+127.0.0.1 - - [24/Mar/2025 15:52:52] "GET /jenkins-stats HTTP/1.1" 200 -
+127.0.0.1 - - [24/Mar/2025 15:52:52] "GET /jenkins-stats HTTP/1.1" 200 -
+127.0.0.1 - - [24/Mar/2025 15:52:57] "GET /jenkins-stats HTTP/1.1" 200 -
+127.0.0.1 - - [24/Mar/2025 15:52:57] "GET /jenkins-stats HTTP/1.1" 200 -
+127.0.0.1 - - [24/Mar/2025 15:52:57] "GET /jenkins-stats HTTP/1.1" 200 -
+127.0.0.1 - - [24/Mar/2025 15:53:02] "GET /jenkins-stats HTTP/1.1" 200 -
+127.0.0.1 - - [24/Mar/2025 15:53:02] "GET /jenkins-stats HTTP/1.1" 200 -
+127.0.0.1 - - [24/Mar/2025 15:53:02] "GET /jenkins-stats HTTP/1.1" 200 -
+127.0.0.1 - - [24/Mar/2025 15:53:07] "GET /jenkins-stats HTTP/1.1" 200 -
+127.0.0.1 - - [24/Mar/2025 15:53:07] "GET /jenkins-stats HTTP/1.1" 200 -
+127.0.0.1 - - [24/Mar/2025 15:53:07] "GET /jenkins-stats HTTP/1.1" 200 -
+127.0.0.1 - - [24/Mar/2025 15:53:12] "GET /jenkins-stats HTTP/1.1" 200 -
+127.0.0.1 - - [24/Mar/2025 15:53:12] "GET /jenkins-stats HTTP/1.1" 200 -
+127.0.0.1 - - [24/Mar/2025 15:53:12] "GET /jenkins-stats HTTP/1.1" 200 -
+127.0.0.1 - - [24/Mar/2025 15:53:17] "GET /jenkins-stats HTTP/1.1" 200 -
+127.0.0.1 - - [24/Mar/2025 15:53:17] "GET /jenkins-stats HTTP/1.1" 200 -
+127.0.0.1 - - [24/Mar/2025 15:53:17] "GET /jenkins-stats HTTP/1.1" 200 -
+127.0.0.1 - - [24/Mar/2025 15:53:22] "GET /jenkins-stats HTTP/1.1" 200 -
+127.0.0.1 - - [24/Mar/2025 15:53:22] "GET /jenkins-stats HTTP/1.1" 200 -
+127.0.0.1 - - [24/Mar/2025 15:53:22] "GET /jenkins-stats HTTP/1.1" 200 -
+127.0.0.1 - - [24/Mar/2025 15:53:27] "GET /jenkins-stats HTTP/1.1" 200 -
+127.0.0.1 - - [24/Mar/2025 15:53:27] "GET /jenkins-stats HTTP/1.1" 200 -
+127.0.0.1 - - [24/Mar/2025 15:53:27] "GET /jenkins-stats HTTP/1.1" 200 -
+127.0.0.1 - - [24/Mar/2025 15:53:32] "GET /jenkins-stats HTTP/1.1" 200 -
+127.0.0.1 - - [24/Mar/2025 15:53:32] "GET /jenkins-stats HTTP/1.1" 200 -
+127.0.0.1 - - [24/Mar/2025 15:53:32] "GET /jenkins-stats HTTP/1.1" 200 -

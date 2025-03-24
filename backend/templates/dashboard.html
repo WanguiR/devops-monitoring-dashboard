@@ -30,19 +30,31 @@
     </div>
 
     <script>
-        function fetchJenkinsStats() {
-            $.get("/jenkins-stats", function(data) {
-                if (data.error) {
-                    $("#build-number").text("Error");
-                    $("#build-status").text("Error");
-                    $("#build-duration").text("Error");
-                } else {
-                    $("#build-number").text(data.build_number);
-                    $("#build-status").text(data.status);
-                    $("#build-duration").text(data.duration);
-                }
-            });
+function fetchJenkinsStats() {
+    fetch('/jenkins-stats')
+    .then(response => response.json())
+    .then(data => {
+        document.getElementById('build-number').innerText = data.build_number || 'N/A';
+        document.getElementById('status').innerText = data.status || 'Unknown';
+        document.getElementById('duration').innerText = data.duration + " sec" || '0 sec';
+
+        // Add color based on status
+        let statusElement = document.getElementById('status');
+        if (data.status === "SUCCESS") {
+            statusElement.style.color = "green";
+        } else if (data.status === "FAILURE") {
+            statusElement.style.color = "red";
+        } else {
+            statusElement.style.color = "orange";  // For "UNKNOWN" or other cases
         }
+    })
+    .catch(error => console.error("Error fetching Jenkins stats:", error));
+}
+
+// Auto-refresh every 5 seconds
+setInterval(fetchJenkinsStats, 5000);
+fetchJenkinsStats();
+
 
         // Refresh stats every 5 seconds
         setInterval(fetchJenkinsStats, 5000);
