@@ -14,8 +14,9 @@ pipeline {
                 '''
             }
         }
-        stage ('Run Flask app') {
+        stage ('Restart Flask app') {
             steps {
+                sh 'pkill -f app.py || true' // Stop old Flask process if running
                 sh 'nohup python3 backend/app.py &'
             }
         }
