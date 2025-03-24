@@ -14,5 +14,10 @@ pipeline {
                 '''
             }
         }
+        stage ('Run Flask app') {
+            steps {
+                sh 'nohup python3 app.py &'
+            }
+        }
      } 
 }
